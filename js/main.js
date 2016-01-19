@@ -3,7 +3,7 @@ var typeSet = {
 }
 var edges = 288650;
 var oReq = new XMLHttpRequest();
-oReq.open("GET", "/blob/edges.bin", true);
+oReq.open("GET", "blob/edges.bin", true);
 oReq.responseType = "arraybuffer";
 
 oReq.onload = function(oEvent) {
